@@ -35,3 +35,11 @@ resource "azurerm_linux_web_app" "example" {
   service_plan_id     = azurerm_service_plan.example.id
   site_config {}
 }
+
+resource "azurerm_linux_web_app" "example" {
+  name                = "example-webapp-asdoi3221op3kadasc"
+  location            = "westeurope"
+  resource_group_name = "rg-02"
+  service_plan_id     = azurerm_service_plan.example.id
+  site_config {}
+}
