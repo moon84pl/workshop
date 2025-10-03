@@ -36,7 +36,7 @@ resource "azurerm_linux_web_app" "example" {
   site_config {}
 }
 
-resource "azurerm_linux_web_app" "example" {
+resource "azurerm_linux_web_app" "example2" {
   name                = "example-webapp-asdoi3221op3kadasc"
   location            = "westeurope"
   resource_group_name = "rg-02"
